@@ -1,13 +1,245 @@
-
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RS Digital Promotion</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RS Digital Promotion | Scale Your Business Internationally</title>
+    <!-- Tailwind CSS for modern enterprise layout -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+        .gradient-bg { background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-blue-500 selection:text-white">
+
+    <!-- Navbar -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 gradient-bg rounded-xl flex items-center justify-center shadow-lg shadow-blue-500/20">
+                    <span class="text-white font-black text-xl">RS</span>
+                </div>
+                <span class="text-xl font-black tracking-tight text-slate-900">RS Digital <span class="text-blue-600">Promotion</span></span>
+            </div>
+            <nav class="hidden md:flex items-center gap-8 font-semibold text-slate-600">
+                <a href="#services" class="hover:text-blue-600 transition">Services</a>
+                <a href="#why-us" class="hover:text-blue-600 transition">Why Choose Us</a>
+                <a href="#pricing" class="hover:text-blue-600 transition">Pricing</a>
+                <a href="#contact" class="bg-blue-600 text-white px-5 py-2.5 rounded-xl shadow-lg shadow-blue-600/20 hover:bg-blue-700 transition">Get Started</a>
+            </nav>
+            <a href="tel:+918739853696" class="md:hidden text-blue-600 text-xl font-bold"><i class="fa-solid fa-phone"></i></a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-12 pb-20 md:pt-24 md:pb-32 overflow-hidden bg-white">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10">
+            <div class="space-y-6 text-center md:text-left">
+                <div class="inline-flex items-center gap-2 bg-blue-50 text-blue-700 px-4 py-1.5 rounded-full text-sm font-semibold">
+                    <span class="w-2 h-2 bg-blue-600 rounded-full animate-pulse"></span> Complete Business Growth Engine
+                </div>
+                <h1 class="text-4xl md:text-6xl font-black tracking-tight text-slate-900 leading-tight">
+                    अपने बिज़नेस को ले जाइए <br><span class="text-transparent bg-clip-text gradient-bg">हज़ारों नए ग्राहकों</span> तक!
+                </h1>
+                <p class="text-lg text-slate-600 max-w-xl mx-auto md:mx-0">
+                    हम आपके स्थानीय बाजार (Local Area) में Meta, Instagram, WhatsApp और Google Ads के माध्यम से आपकी ब्रांड विजिबिलिटी और सीधी कॉल्स को बढ़ाते हैं।
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                    <a href="#contact" class="bg-blue-600 text-white font-bold px-8 py-4 rounded-xl shadow-xl shadow-blue-600/20 hover:bg-blue-700 transition flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-bolt"></i> फ्री कंसल्टेशन बुक करें
+                    </a>
+                    <a href="https://wa.me/918739853696?text=Hi%20RS%20Digital%20Promotion,%20I%20want%20to%20know%20about%20your%20services" target="_blank" class="bg-emerald-50 text-emerald-700 border border-emerald-200 font-bold px-8 py-4 rounded-xl hover:bg-emerald-100 transition flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-xl"></i> WhatsApp Chat
+                    </a>
+                </div>
+            </div>
+            <div class="relative flex justify-center">
+                <div class="w-full max-w-md bg-slate-900 aspect-square rounded-3xl overflow-hidden shadow-2xl relative">
+                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3" alt="Marketing Dashboard" class="w-full h-full object-cover opacity-80">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent"></div>
+                    <!-- Live Stats Widget inside Image -->
+                    <div class="absolute bottom-6 left-6 right-6 bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-2xl flex justify-between text-white">
+                        <div class="text-center">
+                            <p class="text-2xl font-black">500K+</p>
+                            <p class="text-xs text-slate-300">Ad Impressions</p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-2xl font-black">15K+</p>
+                            <p class="text-xs text-slate-300">Leads Generated</p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-2xl font-black">98%</p>
+                            <p class="text-xs text-slate-300">Client Retention</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center space-y-4 mb-16">
+                <h2 class="text-3xl md:text-5xl font-black tracking-tight text-slate-900">हमारी Premium Services</h2>
+                <p class="text-slate-600 max-w-2xl mx-auto">हम सिर्फ पोस्टर्स नहीं बनाते, हम कस्टमाइज्ड एडवरटाइजिंग कैम्पेन चलाते हैं जो सीधे सेल्स जनरेट करते हैं।</p>
+            </div>
+            <div class="grid md:grid-columns-3 sm:grid-cols-2 grid-cols-1 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center text-blue-600 text-xl font-bold mb-6 group-hover:bg-blue-600 group-hover:text-white transition">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-slate-900">Meta & Instagram Ads</h3>
+                    <p class="text-slate-600">आपके लोकल एरिया के विशिष्ट और टारगेटेड ऑडियंस (उम्र, लोकेशन और रूचि) के हिसाब से ऑप्टिमाइज्ड विज्ञापन सेटअप।</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-emerald-50 rounded-xl flex items-center justify-center text-emerald-600 text-xl font-bold mb-6 group-hover:bg-emerald-600 group-hover:text-white transition">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-slate-900">WhatsApp Lead Automation</h3>
+                    <p class="text-slate-600">बिना किसी जटिल सॉफ्टवेयर के, विज्ञापन पर क्लिक करते ही ग्राहक सीधा आपके व्हाट्सएप नंबर पर इन्क्वायरी सेंड करेगा।</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-amber-50 rounded-xl flex items-center justify-center text-amber-600 text-xl font-bold mb-6 group-hover:bg-amber-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-slate-900">Google Local Visibility</h3>
+                    <p class="text-slate-600">जब भी कोई लोकल यूजर आपके बिज़नेस से जुडी सर्विस गूगल पर सर्च करेगा, आपका नाम और मैप लिस्टिंग सबसे ऊपर प्रदर्शित होगी।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why-us" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <h2 class="text-3xl md:text-4xl font-black tracking-tight text-slate-900">हम झूठे वादे या फेक गारंटी नहीं देते, हम परिणाम देते हैं।</h2>
+                <p class="text-slate-600">बाजार में चल रहे फ्रॉड से बचिए। RS Digital Promotion एक रिमोट वर्किंग मॉडल पर काम करने वाली टीम है, जिससे हमारा ऑपरेशनल खर्च कम होता है और हम आपको सबसे कम दामों पर सर्विस प्रदान करते हैं।</p>
+                <div class="space-y-4">
+                    <div class="flex gap-4 items-start">
+                        <div class="w-6 h-6 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 shrink-0 mt-1"><i class="fa-solid fa-check text-xs"></i></div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">100% ट्रांसपेरेंट बजट कंट्रोल</h4>
+                            <p class="text-sm text-slate-600">रोजाना का एड बजट (Ad Budget) सीधे आपके कंट्रोल में रहता है।</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 items-start">
+                        <div class="w-6 h-6 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 shrink-0 mt-1"><i class="fa-solid fa-check text-xs"></i></div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">डेली रिपोर्टिंग सपोर्ट</h4>
+                            <p class="text-sm text-slate-600">आपके कैंपेन का परफॉरमेंस डेटा और स्क्रीनशॉट्स व्हाट्सएप पर नियमित रूप से साझा किए जाएंगे।</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-slate-900 p-8 md:p-12 rounded-3xl text-white gradient-bg relative">
+                <h3 class="text-2xl font-black mb-4">क्या ट्रेडिशनल मार्केटिंग बेकार हो चुकी है?</h3>
+                <p class="text-slate-300 text-sm mb-6 leading-relaxed">पैम्फलेट, बैनर या होर्डिंग्स में हजारों रुपए लगाने के बाद भी आपको यह नहीं पता चलता कि विज्ञापन कितने सही लोगों ने देखा। डिजिटल एड्स में आपका एक-एक पैसा सिर्फ उसी यूजर पर खर्च होता है जो वास्तव में आपकी सर्विस में रूचि रखता है।</p>
+                <div class="border-t border-slate-700 pt-6 flex items-center gap-4">
+                    <div class="w-12 h-12 bg-blue-600/20 text-blue-400 rounded-full flex items-center justify-center text-xl"><i class="fa-solid fa-calculator"></i></div>
+                    <div>
+                        <p class="text-xs text-slate-400">औसत विज्ञापन लागत</p>
+                        <p class="text-lg font-bold">ट्रेडिशनल से 5 गुना सस्ता और प्रभावी</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center space-y-4 mb-16">
+                <h2 class="text-3xl md:text-5xl font-black tracking-tight text-slate-900">सरल और पारदर्शी प्राइजिंग</h2>
+                <p class="text-slate-600 max-w-xl mx-auto">बिना किसी छुपे हुए शुल्क के, सीधे अपने बिज़नेस की ग्रोथ एक्टिवेट करें।</p>
+            </div>
+            <div class="max-w-md mx-auto bg-white rounded-3xl border-2 border-blue-600 shadow-xl overflow-hidden relative">
+                <div class="bg-blue-600 text-center text-white py-2 text-xs font-black uppercase tracking-widest">Most Popular Growth Plan</div>
+                <div class="p-8 md:p-10 space-y-6">
+                    <div class="text-center space-y-2">
+                        <h3 class="text-2xl font-black text-slate-900">Local Business Booster</h3>
+                        <div class="text-5xl font-black text-slate-900">₹1499<span class="text-base text-slate-500 font-normal">/महीना</span></div>
+                        <p class="text-xs text-slate-500">(मैनेजमेंट और टेक्निकल सेटअप फीस)</p>
+                    </div>
+                    <div class="border-t border-slate-100 pt-6 space-y-4">
+                        <ul class="space-y-3 text-sm font-medium text-slate-600">
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-circle-check text-emerald-500"></i> Professional Ad Campaign Setup</li>
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-circle-check text-emerald-500"></i> Hyper-Local Location Targeting</li>
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-circle-check text-emerald-500"></i> Target Audience Research</li>
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-circle-check text-emerald-500"></i> Daily Optimization & Maintenance</li>
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-circle-check text-emerald-500"></i> WhatsApp/Call Routing Support</li>
+                        </ul>
+                    </div>
+                    <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 text-xs text-amber-800 leading-relaxed">
+                        <i class="fa-solid fa-circle-info mr-1 text-sm"></i> <strong>नोट:</strong> विज्ञापन प्लेटफार्म (Meta/Google) का लाइव खर्च ग्राहक को वहन करना होगा (न्यूनतम रिकमेंडेड: ₹200/दिन)।
+                    </div>
+                    <a href="#contact" class="block text-center bg-blue-600 text-white font-bold py-4 rounded-xl shadow-lg shadow-blue-600/20 hover:bg-blue-700 transition">कैंपेन लाइव करें</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Lead Form -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center space-y-4 mb-12">
+                <h2 class="text-3xl md:text-4xl font-black tracking-tight text-slate-900">आज ही अपना फ्री स्लॉट बुक करें</h2>
+                <p class="text-slate-600">नीचे फॉर्म भरें, हमारी टीम अगले 15 मिनट में आपसे संपर्क करके आपके बिज़नेस का लाइव रोडमैप शेयर करेगी।</p>
+            </div>
+            <div class="bg-slate-50 rounded-3xl border border-slate-200 p-8 md:p-12 shadow-sm grid md:grid-cols-5 gap-8">
+                <div class="md:col-span-3">
+                    <form class="space-y-5">
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-2">आपका नाम</label>
+                            <input type="text" required placeholder="अपना नाम दर्ज करें" class="w-full bg-white border border-slate-200 rounded-xl px-4 py-3 text-slate-900 focus:outline-none focus:border-blue-600 transition">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-2">व्हाट्सएप नंबर</label>
+                            <input type="tel" required placeholder="अपना चालू मोबाइल नंबर दर्ज करें" class="w-full bg-white border border-slate-200 rounded-xl px-4 py-3 text-slate-900 focus:outline-none focus:border-blue-600 transition">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-2">बिज़नेस की कैटेगरी</label>
+                            <input type="text" placeholder="उदा. Gym, Restaurant, Salon, Clinic" class="w-full bg-white border border-slate-200 rounded-xl px-4 py-3 text-slate-900 focus:outline-none focus:border-blue-600 transition">
+                        </div>
+                        <button type="submit" class="w-full bg-blue-600 text-white font-bold py-4 rounded-xl shadow-xl shadow-blue-600/20 hover:bg-blue-700 transition">डिटेल्स व्हाट्सएप पर प्राप्त करें</button>
+                    </form>
+                </div>
+                <div class="md:col-span-2 flex flex-col justify-between p-6 bg-slate-900 text-white rounded-2xl gradient-bg">
+                    <div class="space-y-6">
+                        <h4 class="text-lg font-bold">डायरेक्ट संपर्क सूत्र:</h4>
+                        <div class="space-y-4 text-sm">
+                            <a href="tel:+918739853696" class="flex items-center gap-3 text-slate-300 hover:text-white transition">
+                                <i class="fa-solid fa-phone text-blue-400"></i> +91 8739853696
+                            </a>
+                            <div class="flex items-center gap-3 text-slate-300">
+                                <i class="fa-solid fa-envelope text-blue-400"></i> support@rsdigital.com
+                            </div>
+                            <div class="flex items-center gap-3 text-slate-300">
+                                <i class="fa-solid fa-clock text-blue-400"></i> 10:00 AM - 7:00 PM
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-6 border-t border-slate-700">
+                        <a href="https://wa.me/918739853696?text=Hello%20RS%20Digital,%20I%20want%20to%20set%20up%20ads%20for%20my%20business." target="_blank" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white text-center font-bold py-3 px-4 rounded-xl block transition">
+                            <i class="fa-brands fa-whatsapp mr-1"></i> Quick WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-500 py-8 border-t border-slate-900 text-center text-sm">
+        <p>&copy; 2026 RS Digital Promotion. All Rights Reserved. | Managed for Local & Enterprise Growth Platforms</p>
+    </footer>
+
+</body>
 </html>
